@@ -2,5 +2,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cuprum', sans-serif;
 }
 
+body {
+    background-image: url("/img/background.png");
+}
+
+.game-level {
+    margin-top: 40px;
+}
+
+h1 {
+    color: #05FF00;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.level-main {
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+button {
+    width: fit-content;
+    margin: auto;
+    width: 150px;
+    margin-top: 30px;
+    
+    background-color: #05FF00;
+    
+    border-radius: 10px;
+}
+
+button a {
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.score ul {
+    margin: 0 60px;
+}
+
+li {
+    font-family: 'Comic Neue', sans-serif ;
+    color: white;
+    font-size: 24px;
+}
+
+.line {
+    margin-top: -20px;
+    color: #05FF00;
+}
+
+.up-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+    
+}
+
+.up-cards img {
+    width: 200px;
+}
+
+.down-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+.down-cards img {
+    width: 200px;
+}
